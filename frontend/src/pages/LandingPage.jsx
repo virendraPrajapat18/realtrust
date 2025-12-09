@@ -4,7 +4,7 @@ import ContactForm from "../components/forms/ContactForm";
 import ProjectsCarousel from "../components/landing/ProjectsCarousel";
 import ClientCarousel from "../components/landing/ClientCarousel";
 import Footer from "../components/landing/Footer";
-import Details from "../components/landing/details";
+import Details from "../components/landing/Details";
 import NewsletterForm from "../components/forms/NewsletterForm";
 
 const LandingPage = () => (
