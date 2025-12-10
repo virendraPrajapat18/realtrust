@@ -18,8 +18,8 @@ const router = express.Router();
 router.get("/", getAllProjects);
 router.get("/:id", getProjectById);
 
-router.post("/", requireAuth, upload.single("image"), addProject);
-router.put("/:id", requireAuth, upload.single("image"), updateProject);
-router.delete("/:id", requireAuth, deleteProject);
+router.post("/",  upload.single("image"), addProject);
+router.put("/:id",  upload.single("image"), updateProject);
+router.delete("/:id",  deleteProject);
 
 export default router;
