@@ -11,7 +11,7 @@ const router = express.Router();
 
 router.get("/", getAllClients);
 router.post("/", addClient); //requireAuth
-router.put("/:id", requireAuth, updateClient);
-router.delete("/:id", requireAuth, deleteClient);
+router.put("/:id",  updateClient);
+router.delete("/:id",  deleteClient);
 
 export default router;
