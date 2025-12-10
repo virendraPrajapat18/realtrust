@@ -25,7 +25,7 @@ app.use(express.json({ limit: "10mb" }));
 
 app.use(
   cors({
-    origin: "https://realtrust-bq9d-gn3gpy2h0-virendra-prajapats-projects.vercel.app",
+    origin: "https://realtrust-71jb.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
